@@ -1,12 +1,13 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>This is the homepage</div>,
+    element: <Navbar />,
     // loader: rootLoader,
-    // children: [
+    // children:
     //   {
     //     path: "/login",
     //     element: <div>This is the Login page</div>,
